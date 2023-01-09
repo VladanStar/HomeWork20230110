@@ -15,7 +15,7 @@ function vikendIliNe() {
     case "subota":
       result.innerHTML += ` Dan : ${dan} je vikend`;
     default:
-      result.innerHTML += ` Dan : ${dan} korektno unet`;
+      alert(" Dan korektno unet");
       break;
   }
   console.log(`The value is ${a}`);
