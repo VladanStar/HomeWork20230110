@@ -1,9 +1,22 @@
-function paranIliNeparan() {
-  let broj = document.getElementById("broj").value;
+function vikendIliNe() {
+  // program using switch statement
+  let dan = document.getElementById("broj").value.trim().toLowerCase();
   let result = document.getElementById("result");
-  if (broj % 2 === 0) {
-    result.innerHTML += ` Broj : ${broj} je paran`;
-  } else {
-    result.innerHTML += ` Broj: ${broj} je neparan`;
+
+  switch (dan) {
+    case "ponedeljak":
+    case "utorak":
+    case "sreda":
+    case "cetvrtak":
+    case "petak":
+      result.innerHTML += ` Dan : ${dan} nije vikend`;
+      break;
+    case "nedelja":
+    case "subota":
+      result.innerHTML += ` Dan : ${dan} je vikend`;
+    default:
+      result.innerHTML += ` Dan : ${dan} korektno unet`;
+      break;
   }
+  console.log(`The value is ${a}`);
 }
