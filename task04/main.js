@@ -1,6 +1,6 @@
 function vikendIliNe() {
   // program using switch statement
-  let dan = document.getElementById("broj").value.trim().toLowerCase();
+  let dan = document.getElementById("dan").value.trim().toLowerCase();
   let result = document.getElementById("result");
 
   switch (dan) {
