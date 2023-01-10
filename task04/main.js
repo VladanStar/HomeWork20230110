@@ -19,5 +19,5 @@ function vikendIliNe() {
       alert(" Dan korektno unet");
       break;
   }
-  console.log(`The value is ${a}`);
+  
 }
